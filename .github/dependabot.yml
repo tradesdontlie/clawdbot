@@ -111,3 +111,13 @@ updates:
           - minor
           - patch
     open-pull-requests-limit: 5
+  - package-ecosystem: "docker"
+    directories:
+      - "/"
+      - "/scripts/docker/cleanup-smoke"
+      - "/scripts/docker/install-sh-e2e"
+      - "/scripts/docker/install-sh-nonroot"
+      - "/scripts/docker/install-sh-smoke"
+      - "/scripts/e2e"
+    schedule:
+      interval: "weekly"
