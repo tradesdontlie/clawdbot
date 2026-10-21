@@ -5,6 +5,7 @@ Docs: https://docs.clawd.bot
 ## 2026.1.24-3
 
 ### Fixes
+- Security: require the October 2026 patched Node.js releases for development and deployment, and monitor Docker updates weekly. (#1) Thanks @tradesdontlie.
 - Gateway: harden reverse proxy handling for local-client detection and unauthenticated proxied connects. (#1795) Thanks @orlyjamie.
 - Security audit: flag loopback Control UI with auth disabled as critical. (#1795) Thanks @orlyjamie.
 
